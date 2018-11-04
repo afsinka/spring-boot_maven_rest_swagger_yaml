@@ -6,7 +6,7 @@ Generating a REST API from a yaml file via Swagger Codegen <br />
 test:  <br />
 mvn clean package <br />
 mvn spring-boot:run <br />
-http://localhost:8888/hello?name=a <br />
+http://localhost:8888/hello?name=John <br />
  <br />
 Swagger: https://swagger.io/ <br />
 Swagger Codegen: https://github.com/swagger-api/swagger-codegen <br />
