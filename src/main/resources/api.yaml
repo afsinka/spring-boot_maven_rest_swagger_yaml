@@ -1,0 +1,28 @@
+swagger: "2.0"
+basePath: /v2
+info:
+  version: "1.0"
+  title: "Hello World API"
+paths:
+  /hello:
+    get:
+      summary: "mySummary"
+      description: "myDescription"
+      parameters:
+      - name: name
+        in: query
+        type: string
+        required: true
+        description: ""
+      responses:
+        200:
+          description: "successful"
+          schema:
+            type: string
+
+definitions:
+  User:
+    type: "object"
+    properties:
+      name:
+        type: "string"
